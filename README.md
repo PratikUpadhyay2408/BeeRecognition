@@ -40,19 +40,17 @@ python src/predict.py --model /path/to/trained/model --input /path/to/input/imag
 # Example commands for evaluating the model
 python src/evaluate.py --model /path/to/trained/model --test_dataset /path/to/test/dataset
 ```
-# Honey Bee Subspecies Classification
-
 ## Data
 
 The dataset comprises images of honey bees from three distinct subspecies: **_Russian Honey Bee_**, **_Italian Honey Bee_**, and **_Mixed Local Stock_**. Each subspecies is represented by specific observations. Below are the images of the bees from the respective subspecies:
 
-![Russian Bee]()
+![Russian Bee](https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/russian-bee.jpg)
 *Caption: Russian Honey Bee*
 
 ![Italian Bee](https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/italian.jpg)
 *Caption: Italian Honey Bee*
 
-![Mixed Bee]()
+![Mixed Bee](https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/mixed.jpg)
 *Caption: Mixed Local Stock*
 
 ### Sample Data
