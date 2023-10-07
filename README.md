@@ -49,7 +49,7 @@ The dataset comprises images of honey bees from three distinct subspecies: **_Ru
 ![Russian Bee]()
 *Caption: Russian Honey Bee*
 
-![Italian Bee]()
+![Italian Bee](https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/italian.jpg)
 *Caption: Italian Honey Bee*
 
 ![Mixed Bee]()
