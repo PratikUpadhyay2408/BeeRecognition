@@ -40,9 +40,42 @@ python src/predict.py --model /path/to/trained/model --input /path/to/input/imag
 # Example commands for evaluating the model
 python src/evaluate.py --model /path/to/trained/model --test_dataset /path/to/test/dataset
 ```
+# Honey Bee Subspecies Classification
 
 ## Data
-Describe the datasets used in the project. Include details about the data format, sources, and any preprocessing steps applied to the data.
+
+The dataset comprises images of honey bees from three distinct subspecies: **_Russian Honey Bee_**, **_Italian Honey Bee_**, and **_Mixed Local Stock_**. Each subspecies is represented by specific observations. Below are the images of the bees from the respective subspecies:
+
+![Russian Bee]()
+*Caption: Russian Honey Bee*
+
+![Italian Bee]()
+*Caption: Italian Honey Bee*
+
+![Mixed Bee]()
+*Caption: Mixed Local Stock*
+
+### Sample Data
+
+| File               | Date    | Time  | Location           | Zip Code | Subspecies         | Health            | Pollen Carrying | Caste  |
+|--------------------|---------|-------|--------------------|----------|--------------------|--------------------|-----------------|--------|
+| 041_066.png        | 8/28/18 | 16:07 | Alvin, TX, USA     | 77511    | Russian Honey Bee  | Hive being robbed  | FALSE           | Worker |
+| 041_072.png        | 8/28/18 | 16:07 | Alvin, TX, USA     | 77511    | Italian Honey Bee  | Hive being robbed  | FALSE           | Worker |
+| 041_073.png        | 8/28/18 | 16:07 | Alvin, TX, USA     | 77511    | Russian Honey Bee  | Hive being robbed  | FALSE           | Worker |
+| 041_067.png        | 8/28/18 | 16:07 | Alvin, TX, USA     | 77511    | Italian Honey Bee  | Hive being robbed  | FALSE           | Worker 
+
+In this dataset:
+
+- **File**: Represents the filename of the bee image.
+- **Date**: Indicates the date of the observation.
+- **Time**: Specifies the time of the observation.
+- **Location**: Provides the specific location where the observation took place, including city and state (Alvin, TX, USA).
+- **Zip Code**: Contains the ZIP code of the observation location (77511).
+- **Subspecies**: Indicates the subspecies of the observed bee, including **_Russian Honey Bee_**, **_Italian Honey Bee_**, and **_Mixed Local Stock_**.
+- **Health**: Describes the health status of the observed bee, with this sample indicating the hive being robbed.
+- **Pollen Carrying**: Indicates whether the bee is carrying pollen (FALSE in this case, denoting no pollen carrying).
+- **Caste**: Represents the caste of the observed bee, with all instances belonging to the worker caste.
+
 
 ## Model
 Explain the classification model architecture, including layers, activation functions, and any other relevant details. If there are multiple iterations of the model, document the improvements and changes made in each version.
