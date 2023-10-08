@@ -105,5 +105,4 @@ A Dense layer with `self.output_size` neurons and softmax activation produces th
 
 <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/test_accuracy.png" alt="test accuracy" width=400>
 
-Present the results of the experiments conducted using the model. Include metrics, charts, and any other visualizations that help explain the performance of the classification model.
 
