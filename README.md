@@ -11,7 +11,7 @@ Brief description of the project and its objectives. Include what the project ai
   - Contains data for training the bee recognition model.
 
 - **Templates** 
-  - Likely contains HTML templates for the Flask web application.
+  - HTML templates for the Flask web application.
 
 - **Results** 
   - contains the complete trained model ( finalmodel.h5 ) and the weights have additionally been saved separately in cnn_model.h5
