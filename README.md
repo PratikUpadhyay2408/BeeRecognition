@@ -45,19 +45,11 @@ python src/evaluate.py --model /path/to/trained/model --test_dataset /path/to/te
 The dataset comprises images of honey bees from three distinct subspecies: **_Russian Honey Bee_**, **_Italian Honey Bee_**, and **_Mixed Local Stock_**. Each subspecies is represented by specific observations. Below are the images of the bees from the respective subspecies:
 
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
-    <div style="text-align: center;">
-        <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/russian-bee.png" alt="Russian Bee" width="200" height="150">
-        <p><em>Russian Honey Bee</em></p>
-    </div>
-    <div style="text-align: center;">
-        <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/italian.jpg" alt="Italian Honey Bee" width="200" height="150">
-        <p><em>Italian Honey Bee</em></p>
-    </div>
-    <div style="text-align: center;">
-        <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/mixed.jpg" alt="Mixed Local Stock" width="200" height="150">
-        <p><em>Mixed Local Stock</em></p>
-    </div>
-</div>
+    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/russian-bee.png" alt="Russian Bee" width="200" height="150">
+  <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/italian.jpg" alt="Italian Honey Bee" width="200" height="150">
+   <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/mixed.jpg" alt="Mixed Local Stock" width="200" height="150">
+</div> 
+from left to right <em>Russian Honey Bee</em>, <em>Italian Honey Bee</em>, <em>Mixed Local Stock</em>
 
 
 ### Sample Data
