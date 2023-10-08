@@ -78,8 +78,14 @@ In this dataset:
 
 
 ## Model
-
 <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/archi_bee_classification.png" alt="model arch" >
+
+<div style="display: flex; justify-content: space-around; align-items: flex-start;">
+    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/model_accuracy.png" alt="model accuracy" ">
+    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/model_loss.png" alt="model loss" >
+</div> 
+
+<img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/test_accuracy.png" alt="test accuracy" >
 
 Explain the classification model architecture, including layers, activation functions, and any other relevant details. If there are multiple iterations of the model, document the improvements and changes made in each version.
 
