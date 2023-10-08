@@ -6,40 +6,34 @@ Brief description of the project and its objectives. Include what the project ai
 
 ## Repository Structure
 
-/data
-Contains datasets for training and testing the classification model.
-/src
-Contains the source code for the classification model.
-/docs
-Contains project documentation and related files.
-/results
-Stores the results of experiments and model evaluations.
-/scripts
-Contains helper scripts for data preprocessing, training, and evaluation.
-bash
+
+- **BeeData** (Folder)
+  - Contains data for training the bee recognition model.
+
+- **Templates** (Folder)
+  - Likely contains HTML templates for the Flask web application.
+
+- **Results** (Folder)
+  - contains the complete trained model ( finalmodel.h5 ) and the weights have additionally been saved separately in cnn_model.h5
+  - images used in the readme and some  metrics for model performance.
+
+- **Bee_Image_Recognition.py** (File)
+  - Python file containing code for the Deployable Bee Recognition Flask App.
+
+- **Data_Processing.py** (File)
+  - contains code for processing images and creating datasets.
+
+- **Model.py** (File)
+  - contains the code for the bee recognition Machine Learning model.
+  - Also has a classifier using vgg16 backbone with custom top implemented.  
+
+- **Predict.py** (File)
+  - contains the code for making predictions using the trained model.
+
+- **Training.py** (File)
+  - Python file containing code for training the bee recognition model.
 
 
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/username/bee-subspecies-classification.git
-
-# Navigate to the project directory
-cd bee-subspecies-classification
-
-# Install dependencies (if any)
-pip install -r requirements.txt
-
-# Example commands for training the model
-python src/train.py --dataset /path/to/training/dataset --epochs 50 --batch_size 32
-
-# Example commands for making predictions
-python src/predict.py --model /path/to/trained/model --input /path/to/input/image.jpg
-
-# Example commands for evaluating the model
-python src/evaluate.py --model /path/to/trained/model --test_dataset /path/to/test/dataset
-```
 ## Data
 
 The dataset comprises images of honey bees from four distinct subspecies: **_Russian Honey Bee_**, **_Italian Honey Bee_**, **_Carniolan Honey Bee_** and **_Mixed Local Stock_**. Each subspecies is represented by specific observations. Below are the images of the bees from the respective subspecies:
