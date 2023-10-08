@@ -46,10 +46,11 @@ The dataset comprises images of honey bees from four distinct subspecies: **_Rus
 
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
     <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/russian-bee.png" alt="Russian Bee" width="200" height="150">
-  <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/italian.jpg" alt="Italian Honey Bee" width="200" height="150">
+    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/italian.jpg" alt="Italian Honey Bee" width="200" height="150">
+    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/carnica.jpg" alt="Carniolan Honey Bee" width="200" height="150">
    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/mixed.jpg" alt="Mixed Local Stock" width="200" height="150">
 </div> 
-from left to right <em>Russian Honey Bee</em>, <em>Italian Honey Bee</em>, <em>Mixed Local Stock</em>
+from left to right <em>Russian Honey Bee</em>, <em>Italian Honey Bee</em>, <em>Carniolan Honey Bee</em>, <em>Mixed Local Stock</em>
 
 
 ### Sample Data
