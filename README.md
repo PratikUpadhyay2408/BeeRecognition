@@ -99,8 +99,8 @@ A Dense layer with `self.output_size` neurons and softmax activation produces th
 ## Results
 
 <div style="display: flex; justify-content: space-around; align-items: flex-start;">
-    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/model_accuracy.png" alt="model accuracy" height=475>
-    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/model_loss.png" alt="model loss" height=475>
+    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/model_accuracy.png" alt="model accuracy" height=450>
+    <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/model_loss.png" alt="model loss" height=450>
 </div> 
 
 <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/test_accuracy.png" alt="test accuracy" >
