@@ -7,30 +7,30 @@ Brief description of the project and its objectives. Include what the project ai
 ## Repository Structure
 
 
-- **BeeData** (Folder)
+- **BeeData** 
   - Contains data for training the bee recognition model.
 
-- **Templates** (Folder)
+- **Templates** 
   - Likely contains HTML templates for the Flask web application.
 
-- **Results** (Folder)
+- **Results** 
   - contains the complete trained model ( finalmodel.h5 ) and the weights have additionally been saved separately in cnn_model.h5
   - images used in the readme and some  metrics for model performance.
 
-- **Bee_Image_Recognition.py** (File)
+- **Bee_Image_Recognition.py** 
   - Python file containing code for the Deployable Bee Recognition Flask App.
 
-- **Data_Processing.py** (File)
+- **Data_Processing.py** 
   - contains code for processing images and creating datasets.
 
-- **Model.py** (File)
+- **Model.py** 
   - contains the code for the bee recognition Machine Learning model.
   - Also has a classifier using vgg16 backbone with custom top implemented.  
 
-- **Predict.py** (File)
+- **Predict.py** 
   - contains the code for making predictions using the trained model.
 
-- **Training.py** (File)
+- **Training.py** 
   - Python file containing code for training the bee recognition model.
 
 
