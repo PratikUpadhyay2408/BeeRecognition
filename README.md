@@ -77,10 +77,30 @@ In this dataset:
 - **Caste**: Represents the caste of the observed bee, with all instances belonging to the worker caste.
 
 
-## Model
+## Model Architecture
 <img src="https://github.com/PratikUpadhyay2408/BeeRecognition/blob/main/results/archi_bee_classification.png" alt="model arch" >
 
-Explain the classification model architecture, including layers, activation functions, and any other relevant details. If there are multiple iterations of the model, document the improvements and changes made in each version.
+**Input Layer:**
+
+The model starts with a Conv2D layer having 6 filters (3x3 each) and a ReLU activation function. It takes input images with a shape defined by `self.input_shape`.
+
+**Pooling Layer:**
+
+A MaxPooling2D layer with a pool size of 2x2 follows the first convolutional layer. It reduces the spatial dimensions, making the network more efficient.
+
+**Second Convolutional Layer:**
+
+Another Conv2D layer with 12 filters (3x3 each) and ReLU activation is added, further refining the learned features.
+
+**Flattening:**
+
+The output from the second convolutional layer is flattened into a one-dimensional vector using the Flatten layer, preparing it for input into the densely connected layers.
+
+**Dense (Fully Connected) Layer:**
+
+A Dense layer with `self.output_size` neurons and softmax activation produces the final class probabilities.
+
+*Note: We initially attempted to use a VGG16 architecture, but it had too many layers, leading to overfitting issues.*
 
 ## Results
 
