@@ -1,5 +1,6 @@
 tensorflow
 numpy
-scikit
+scikit-image
+scikit-learn
 flask
 werkzeug
