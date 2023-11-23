@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'BeeClassification'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_53819ADB57D84871BF8BDED3E8B2826D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_73560636055C4CB88E0CA05089DCAF22 }}
